@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="DELL"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-09-23 04:01:59 PM"/>
+        <attribute name="created" value="REVMTDtERVNLVE9QLUVRNjVST1E7MjAyMi0wOS0yMzswMzo1Nzo1MCBQTTsyNjU1"/>
+        <attribute name="edited" value="REVMTDtERVNLVE9QLUVRNjVST1E7MjAyMi0wOS0yMzswNDowMTo1OSBQTTsxOzI3NjI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="area" type="Real" array="False" size=""/>
+            <declare name="radius" type="Integer" array="False" size=""/>
+            <output expression="&quot;please enter the radius of a circle&quot;" newline="True"/>
+            <input variable="radius"/>
+            <assign variable="area" expression="3.14*radius*2"/>
+        </body>
+    </function>
+</flowgorithm>
